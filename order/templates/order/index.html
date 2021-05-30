@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body{
+            color:white;
+            font-size:50px;
+            background-image: url("/static/zomato.jpg");
+            list-style: none;
+            backdrop-filter: blur(5px);
+            text-align:center;
+        }
+        a{
+            text-decoration: none;
+            color:white;
+            cursor:pointer;
+
+        }
+        
+    </style>
+    <title>Add</title>
+</head>
+
+<body>
+    
+
+    <div class="top-wrapper">
+        <h1>Zomato2.0</h1>
+        <div class="order">
+            <li><a href="{% url 'home' %}">Order List </a></li>
+            <hr/> <li><a href="{% url 'add' %}">Order Now</a></li>
+           
+        </div>
+        
+        
+        
+    </div>
+</body>
+
+</html>
